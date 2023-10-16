@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles/menu.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav_logo">
+        <img src="./images/nav_logo.png" alt="" class="nav_logo_image" />
+      </div>
+      <div class="navs_for_header">
+        <nav class="header_href">
+          <a href="./index.html" class="nav_a_header">Home </a>
+          <a href="./about_us.html" class="nav_a_header"
+            >About us
+            <img
+              src="./images/strelka_for_navs.png"
+              class="strelka_header"
+              alt=""
+          /></a>
+          <a href="#" class="nav_a_header active"
+            >Menu
+            <img
+              src="./images/strelka_for_navs.png"
+              class="strelka_header"
+              alt=""
+          /></a>
+          <a href="./career.html" class="nav_a_header"
+            >Career
+            <img
+              src="./images/strelka_for_navs.png"
+              class="strelka_header"
+              alt=""
+          /></a>
+        </nav>
+      </div>
+      <div class="icon_for_header">
+        <div class="lupa_header">
+          <img
+            src="./images/lupa.png"
+            onclick="openPage('./menu.html')"
+            class="icon_image"
+            alt=""
+          />
+        </div>
+        <div class="korzina_header">
+          <img
+            src="./images/korzina.png"
+            onclick="openPage('./menu.html#korziiiiiiiiiiiiiiiina')"
+            class="icon_image"
+            alt=""
+          />
+        </div>
+        <div class="order_header">
+          <img src="./images/phone_call.png" class="icon_image_active" alt="" />
+          <a href="./menu.html#korziiiiiiiiiiiiiiiina" class="href_order_now"
+            >Order Now</a
+          >
+        </div>
+      </div>
+    </header>
+    <div class="nav_form_lorzina">
+      <a href="#korziiiiiiiiiiiiiiiina"
+        ><img src="./images_menu/shopping-cart.png" alt=""
+      /></a>
+    </div>
+    <!-- section_1 -->
+    <section class="section_1">
+      <div class="section_1_content">
+        <div class="section_1_colon_left">
+          <div class="section_1_nav">
+            <a href="#salads" class="section_1_href color-change"
+              >🥗 <span>Salads</span></a
+            >
+          </div>
+          <div class="section_1_nav">
+            <a href="#snacks" class="section_1_href color-change"
+              >🍟 <span>Snacks</span></a
+            >
+          </div>
+          <div class="section_1_nav">
+            <a href="#soup" class="section_1_href color-change"
+              >🍲 <span>Soups</span></a
+            >
+          </div>
+          <div class="section_1_nav">
+            <a href="#pizza" class="section_1_href color-change"
+              >🍕 <span>Pizza</span></a
+            >
+          </div>
+          <div class="section_1_nav">
+            <a href="#meat_dishes" class="section_1_href color-change"
+              >🥩 <span>Meat dishes</span></a
+            >
+          </div>
+          <div class="section_1_nav">
+            <a href="#fish_dishes" class="section_1_href color-change"
+              >🍣 <span>Fish dishes</span></a
+            >
+          </div>
+          <div class="section_1_nav">
+            <a href="#dessert" class="section_1_href color-change"
+              >🧁 <span>Dessert</span></a
+            >
+          </div>
+          <div class="section_1_nav">
+            <a href="#drinks" class="section_1_href color-change"
+              >🍹 <span>Drinks</span></a
+            >
+          </div>
+        </div>
+        <div class="section_1_middle">
+          <div class="section_1_middle_main_card">
+            <div class="section_1_main_title" id="salads">
+              <h1>Salads</h1>
+            </div>
+            <div class="section_1_cards">
+              <div class="section_1_cards_colone_1">
+                <div class="section_1_card" id="seafood_salad">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/salads_moreproducts.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Seafood salad</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Tiger prawns, squid, baby octopus, with mixed salad.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">15$</span>
+                    <button onclick="addToCart('Seafood salad', 15)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/japan_salad.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Japan salad</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Iceberg and spinach salad mix, fresh cucumbers and
+                        cherry tomatoes with Tonkatsu sauce
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">15$</span>
+                    <button onclick="addToCart('Japan salad', 15)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/salad_chesar.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Chesar salad</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Lettuce, iceberg, cherry tomatoes, Parmesan cheese,
+                        garlic croutons, Caesar dressing
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">15$</span>
+                    <button onclick="addToCart('Chesar salad', 15)">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="section_1_cards_colone_2">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/salad_sicileec.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Sicilian salad</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        With fried veal, cherry tomatoes, porcini mushrooms,
+                        salad mix, caramelized onions and Parmesan cheese
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">15$</span>
+                    <button onclick="addToCart('Sicilian salad', 15)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/salads_conina.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Salad with horse</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Horse meat fried in soy-ginger sauce, salad mix in
+                        yogurt dressing
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">15$</span>
+                    <button onclick="addToCart('Salad with horse', 15)">
+                      +
+                    </button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu//salads_super_food.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Super-salad</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Lightly salted salmon, quinoa and avocado with mixed
+                        salad, tomatoes and Gamadari sauce
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">15$</span>
+                    <button onclick="addToCart('Super-salad', 15)">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section_1_middle_main_card" id="snacks">
+            <div class="section_1_main_title">
+              <h1>Snacks</h1>
+            </div>
+            <div class="section_1_cards">
+              <div class="section_1_cards_colone_1">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/snacks_calmar.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Fried Calmar</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Crispy fried squid fried in sunflower oil</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Fried Calmar', 10)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/snacks_chebureki.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Cheburecks</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>With juicy lamb, Salsa and Yogurt sauces</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Cheburecks', 10)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/snacks_colbasa.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>BBQ Sausages</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Assorted sausages on a live fire with baked potatoes and
+                        homemade pickles
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('BBQ Sauseges', 10)">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="section_1_cards_colone_2">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/snacks_fried_chechel.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Chechel cheese</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Chechel chesee with the saul</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Chechel chesee', 10)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/snacks_sarnay_kreker.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Krecker with chesee</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>With Thousand Island sauce and fries</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Krecker chesee', 10)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/snacks_tai_roll.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Tai Roll</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Fried rice nems with vegetables and Sweet chilli sauce
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Tai Roll', 10)">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section_1_middle_main_card" id="soup">
+            <div class="section_1_main_title">
+              <h1>Soups</h1>
+            </div>
+            <div class="section_1_cards">
+              <div class="section_1_cards_colone_1">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/soup_tom_yam.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Tom-Yam</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Thai spicy soup with coconut milk and mushrooms, served
+                        with white rice
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Tom-Yam', 20)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/soup+slivochnyu.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Salmon soup</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        From Norwegian fish, aromatic mushrooms, new potatoes
+                        and green spinach on soft cream
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Salmon soup', 20)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/soup_borsh.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Borsh soup</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>With veal, aromatic herbs and homemade sour cream</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Borsh soup', 20)">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="section_1_cards_colone_2">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/soup_chechevic.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Lentils soup</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Lentils with cream and spices</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Lentils soup', 20)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card" id="noodle_soup">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/soup_lapsha.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Noodles soup</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Homemade egg noodles with broth and poultry</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Noodles soup', 20)">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section_1_middle_main_card" id="pizza">
+            <div class="section_1_main_title">
+              <h1>Pizza</h1>
+            </div>
+            <div class="section_1_cards">
+              <div class="section_1_cards_colone_1">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/pizza-Margarita.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Margarita</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Cherry tomatoes, olives with Mozzarella cheese and
+                        tomato sauce
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Margarita', 20)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/pizza_4_seasons.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Four seasons</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Mushroom, Pepperoni, Margarita, Chicken</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Four seasons', 20)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/pizza_chese.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Chesee pizza</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Double Mozzarella, Parmesan, arugula, cream sauce</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Chesee Pizza', 20)">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="section_1_cards_colone_2">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/pizza_chicken.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Chicken pizza</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Smoked chicken roll, grilled chicken, cherry tomatoes,
+                        red onion
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Chicken pizza', 20)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/pizza_peperoni.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Pepperoni</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>With pepper salami and mozzarella cheese</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Pepperoni', 20)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/pizza_salmon.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Salmon pizza</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Salmon, cherry tomatoes, broccoli and zucchini</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">20$</span>
+                    <button onclick="addToCart('Salmon pizza', 20)">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section_1_middle_main_card" id="meat_dishes">
+            <div class="section_1_main_title">
+              <h1>Meat dishes</h1>
+            </div>
+            <div class="section_1_cards">
+              <div class="section_1_cards_colone_1">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/meat_baranina.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Lamb kebab</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        With barbecue sauce, aromatic herbs, pickled onions,
+                        pita bread and tomatoes
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">25$</span>
+                    <button onclick="addToCart('Lamb kebab', 25)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/meat_lula.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Beef kebab</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        With barbecue sauce, aromatic herbs, pickled onions,
+                        pita bread and tomatoes
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">25$</span>
+                    <button onclick="addToCart('Beef kebab', 25)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/meat_chicken.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Chicken kebab</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        With barbecue sauce, aromatic herbs, pickled onions,
+                        pita bread and tomatoes
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">25$</span>
+                    <button onclick="addToCart('Chicken kebab', 25)">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="section_1_cards_colone_2">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/meat_telyatina.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Veal strachetti</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        In meat sauce, with mushrooms, crispy vegetables and
+                        cream cheese
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">25$</span>
+                    <button onclick="addToCart('Veal strachetti', 25)">
+                      +
+                    </button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/meat_frikasse.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Chicken fricasseee</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Cooked in a delicate creamy sauce with hints of nutmeg
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">25$</span>
+                    <button onclick="addToCart('Chick fricas', 25)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/meat_chicken_italian.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Italian chicken</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Chicken fillet with shrimp, spinach in a creamy sauce
+                        with ORZO pasta, sprinkled with Parmesan cheese
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">25$</span>
+                    <button onclick="addToCart('Italian chicken', 25)">
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section_1_middle_main_card" id="fish_dishes">
+            <div class="section_1_main_title">
+              <h1>Fish dishes</h1>
+            </div>
+            <div class="section_1_cards">
+              <div class="section_1_cards_colone_1">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/fish_ala_naturel.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>ALA-Natural</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Fillet baked in creamy sauce with mashed potatoes and
+                        sautéed vegetables
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">25$</span>
+                    <button onclick="addToCart('ALA-Natural', 25)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu//fish_salmon.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Salmon file</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Italian pie with mozzarella cheese, cross fish and
+                        spinach
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">25$</span>
+                    <button onclick="addToCart('Salmon file', 25)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img
+                      src="./images_menu/fish_sudak_vegetables.avif"
+                      alt=""
+                    />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Vegetables with sudak</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>In Johnny Wu sauce with white rice</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">25$</span>
+                    <button onclick="addToCart('Veget-Sudak', 25)">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section_1_middle_main_card" id="dessert">
+            <div class="section_1_main_title">
+              <h1>Dessert</h1>
+            </div>
+            <div class="section_1_cards">
+              <div class="section_1_cards_colone_1">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/dessert_banan_brayni.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Banan-braun</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>With chocolate mousse, banana pieces and walnuts</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Banan-braun', 10)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/dessert_chesee_cake.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Cheesecake</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>According to the Malina group's signature recipe</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Cheseecake', 10)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/dessert_ferrero.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Ferrero</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Chocolate sponge cake, crispy layer, two types of dark
+                        and milk chocolate cream, ground hazelnuts and chocolate
+                        ganache
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Ferrero', 10)">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="section_1_cards_colone_2">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img
+                      src="./images_menu/dessert_fistash_oppers.avif"
+                      alt=""
+                    />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Fisstash dessert</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        With fried veal, cherry tomatoes, porcini mushrooms,
+                        salad mix, caramelized onions and Parmesan cheese
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Fisstash_des', 10)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img
+                      src="./images_menu/dessert_maline_rullet.avif"
+                      alt=""
+                    />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Blueberry rullet</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Airy dessert made of brittle meringue, nut sponge cake,
+                        pistachios and mint syrup
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Blueberry rullet', 10)">
+                      +
+                    </button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img
+                      src="./images_menu/desset_ther_nithing_we_can_do.avif"
+                      alt=""
+                    />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Napaleon</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>
+                        Sir, what we can do??? There is nothing we can do...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">10$</span>
+                    <button onclick="addToCart('Napoleon', 10)">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section_1_middle_main_card" id="drinks">
+            <div class="section_1_main_title">
+              <h1>Drinks</h1>
+            </div>
+            <div class="section_1_cards">
+              <div class="section_1_cards_colone_1">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/drin_mojito.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Mojito</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Flavored with lime, lemon and mint</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">5$</span>
+                    <button onclick="addToCart('Mojito', 5)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/drink_flamingo.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Flamingo</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Cranberry, grapefruit, melon, ice</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">5$</span>
+                    <button onclick="addToCart('Flamingo', 5)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/drink_flamingo.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Citrus</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Ingredients: orange, tangerine, lemon</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">5$</span>
+                    <button onclick="addToCart('Citrus', 5)">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="section_1_cards_colone_2">
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/drink_flamingo.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Wildberries</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Blackcurrant, raspberry, strawberry, cranberry</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">5$</span>
+                    <button onclick="addToCart('Wildberries', 5)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/drink_mors.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Mors wildberries</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Blackcurrant, raspberry, strawberry, cranberry</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">5$</span>
+                    <button onclick="addToCart('Mors wildber', 5)">+</button>
+                  </div>
+                </div>
+                <div class="section_1_card">
+                  <div class="section_1_card_image">
+                    <img src="./images_menu/drink_compot.avif" alt="" />
+                  </div>
+                  <div class="section_1_card_text">
+                    <div class="section_1_card_title">
+                      <h3>Compot</h3>
+                    </div>
+                    <div class="section_1_card_subtitle">
+                      <p>Dried fruits (apples, apricots, rose hips, plums)</p>
+                    </div>
+                  </div>
+                  <div class="section_1_card_buttons">
+                    <span class="price">5$</span>
+                    <button onclick="addToCart('Compot', 5)">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section_1_right" id="korziiiiiiiiiiiiiiiina">
+          <div class="section_1_card_right">
+            <p id="cart-empty" class="p_active">Ваша корзина пуста</p>
+            <ul id="cart"></ul>
+            <p id="total">Итого: 0$</p>
+
+            <div class="button_order">
+              <button id="button_orderr">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_content">
+        <div class="footer_content_main_column">
+          <div class="footer_column_1">
+            <div class="footer_logo">
+              <img
+                src="./images/nav_logo.png"
+                class="footer_logo_image"
+                alt=""
+              />
+            </div>
+            <div class="footer_text_1">
+              <p>
+                Savor the artistry where every dish is a culinary masterpiece
+              </p>
+            </div>
+          </div>
+          <div class="footer_column_hrefsss">
+            <div class="footer_column_2">
+              <ul class="hrefs_1">
+                <li>
+                  <a href="./index.html" class="footer_nav active_footer"
+                    >Useful links</a
+                  >
+                </li>
+                <li>
+                  <a href="./about_us.html" class="footer_nav">About us</a>
+                </li>
+                <li><a href="./menu.html" class="footer_nav">Menu</a></li>
+                <li><a href="./career.html" class="footer_nav">Career</a></li>
+                <li>
+                  <a href="./about_us.html#video" class="footer_nav">Video</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column_3">
+              <ul class="hrefs_2">
+                <li>
+                  <a href="./menu.html" class="footer_nav active_footer"
+                    >Main menu</a
+                  >
+                </li>
+                <li><a href="./menu.html" class="footer_nav">Home</a></li>
+                <li>
+                  <a href="./menu.html#meat_dishes" class="footer_nav"
+                    >Main dishes</a
+                  >
+                </li>
+                <li>
+                  <a href="./menu.html#dessert" class="footer_nav">Dessert</a>
+                </li>
+                <li>
+                  <a href="./menu.html#drinks" class="footer_nav">Drinks</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column_4">
+              <div class="footer_column_3">
+                <ul class="hrefs_3">
+                  <li>
+                    <a
+                      href="./about_us.html#contact"
+                      class="footer_nav active_footer"
+                      >Contact us</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./about_us.html#contact" class="footer_nav"
+                      >example@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./about_us.html#contact" class="footer_nav"></a>+64
+                    958 248 966
+                  </li>
+                  <li>
+                    <a href="./about_us.html#contact" class="footer_nav"
+                      >Social media</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_social_media">
+          <div class="social_media_hrefs">
+            <a href="#"
+              ><img
+                src="./images/facebook.png"
+                class="footer_href_2 factive"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img src="./images/instagramm.png" class="footer_href_2" alt=""
+            /></a>
+            <a href="#"
+              ><img src="./images/twitter'.png" class="footer_href_2" alt=""
+            /></a>
+            <a href="#"
+              ><img src="./images/youtube.png" class="footer_href_2" alt=""
+            /></a>
+          </div>
+          <div class="social_media_hrefs_text">
+            <p>Copyright © 2023 Dscode | All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./menu.js"></script>
+</html>

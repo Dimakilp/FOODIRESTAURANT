@@ -1,5 +1,5 @@
 function handleWindowResize() {
-  if (window.innerWidth < 430) {
+  if (window.innerWidth < 769) {
     const cards = document.querySelectorAll(".section_3_card");
     const prevButton = document.getElementById("prev");
     const nextButton = document.getElementById("next");

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <link rel="stylesheet" href="./styles/about_us.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav_logo">
+        <img src="./images/nav_logo.png" alt="" class="nav_logo_image" />
+      </div>
+      <div class="navs_for_header">
+        <nav class="header_href">
+          <a href="./index.html" class="nav_a_header">Home </a>
+          <a href="./about_us.html" class="nav_a_header active"
+            >About us
+            <img
+              src="./images/strelka_for_navs.png"
+              class="strelka_header"
+              alt=""
+          /></a>
+          <a href="./menu.html" class="nav_a_header"
+            >Menu
+            <img
+              src="./images/strelka_for_navs.png"
+              class="strelka_header"
+              alt=""
+          /></a>
+          <a href="./career.html" class="nav_a_header"
+            >Career
+            <img
+              src="./images/strelka_for_navs.png"
+              class="strelka_header"
+              alt=""
+          /></a>
+        </nav>
+      </div>
+      <div class="icon_for_header">
+        <div class="lupa_header">
+          <img
+            src="./images/lupa.png"
+            onclick="openPage('./menu.html')"
+            class="icon_image"
+            alt=""
+          />
+        </div>
+        <div class="korzina_header">
+          <img
+            src="./images/korzina.png"
+            onclick="openPage('./menu.html#korziiiiiiiiiiiiiiiina')"
+            class="icon_image"
+            alt=""
+          />
+        </div>
+        <div class="order_header">
+          <img src="./images/phone_call.png" class="icon_image_active" alt="" />
+          <a href="./menu.html#korziiiiiiiiiiiiiiiina" class="href_order_now"
+            >Order Now</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- section_1 -->
+    <section class="section_1">
+      <div class="section_1_content">
+        <div class="section_1_images">
+          <img
+            src="./images/about_us_section_1_image'.png"
+            class="main_image_sc_1"
+            alt=""
+          />
+          <img src="./images/ramen.png" class="smile_face_sc_1" alt="" />
+          <img src="./images/tako.png" class="pizza_sc_1" alt="" />
+          <img src="./images/We are cool!.png" class="dialoge_sc_1" alt="" />
+        </div>
+        <div class="section_1_text_content">
+          <div class="section_1_title">
+            <h1>JUST <span class="color_green">WE</span></h1>
+          </div>
+          <div class="section_1_text">
+            <p>
+              The FOODI restaurant is a unique place where excellent European
+              cuisine and unsurpassed service meet. Our dishes are prepared with
+              love and sophistication to please even the most sophisticated
+              tastes. We explore the richness of Europe's flavors, bringing you
+              authentic dishes and innovative takes on classics.
+            </p>
+            <p>
+              Here you will find the perfect combination of elegant furnishings
+              and a cozy atmosphere to enjoy dinner with friends, family or in a
+              romantic setting. We pride ourselves on using only fresh and
+              natural ingredients to ensure every dish is a true masterpiece.
+            </p>
+          </div>
+          <div class="section_1_buttons">
+            <button
+              class="btn_order"
+              onclick="openPage('about_us.html#contact')"
+            >
+              Order Now
+            </button>
+            <div class="play_btn">
+              <a href="#video" class="play_button">Watch Video </a>
+              <img
+                src="./images/play_buttom.png"
+                onclick="openPage('about_us.html#video')"
+                class="play_href"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section_2 -->
+    <section class="section_2">
+      <div class="section_2_content">
+        <div class="section_2_subtitle"><h3>SHORTLY</h3></div>
+        <div class="section_2_title"><h1>ABOUT US</h1></div>
+        <div class="section_2_text">
+          <p>
+            "European Gastronomic Symphony in Every Bite. -
+            <span class="color_green">IT's FOODI</span>"
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- section_3 -->
+    <section class="video-section" id="video_section">
+      <div class="video_container_ten"></div>
+      <div class="video-container">
+        <video id="video" autoplay loop>
+          <source src="./images/video_section_3.mp4" type="video/mp4" />
+        </video>
+        <div class="overlay">
+          <h3 class="section_3_subtitle">VIDEO</h3>
+          <h1 class="section_3_title">WATCH A FILM ABOUT US</h1>
+          <div class="section_3_button">
+            <button id="popupButton">
+              WATCH VIDEO
+              <img
+                src="./images/play_buttom.png"
+                class="section_3_image"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <svg
+          class="wave"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 50"
+        >
+          <path
+            fill="#39db4a"
+            fill-opacity="1"
+            d="M0,64L60,80C120,96,240,128,360,138.7C480,149,600,139,720,122.7C840,107,960,85,1080,96C1200,107,1320,149,1380,170.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+      <div id="videoPopup" class="popup">
+        <span class="close" id="closePopup">&times;</span>
+        <video controls>
+          <source src="./images/video_section_3.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+    <!-- section_4 -->
+    <section class="section_4">
+      <div class="section_4_content">
+        <div class="section_4_subtitle">
+          <h3>WHY WE?</h3>
+        </div>
+        <div class="section_4_title">
+          <h1>Our Advantages</h1>
+        </div>
+        <div class="section_4_cards">
+          <div class="section_4_column_1">
+            <div class="section_4_card">
+              <div class="section_4_card_image">
+                <img
+                  src="./images/organic-food.png"
+                  class="section_4_image"
+                  alt=""
+                />
+              </div>
+              <div class="section_4_card_title">
+                <h3>Fresh Ingredients</h3>
+              </div>
+              <div class="section_4_card_subtitle">
+                We use only fresh and high-quality ingredients. Enjoy the
+                natural taste that delights your taste buds.
+              </div>
+            </div>
+            <div class="section_4_card">
+              <div class="section_4_card_image">
+                <img src="./images/noodle.png" class="section_4_image" alt="" />
+              </div>
+              <div class="section_4_card_title">
+                <h3>Delicious Dishes</h3>
+              </div>
+              <div class="section_4_card_subtitle">
+                Our chefs create dishes that deliver unforgettable flavors. Try
+                our culinary masterpieces and immerse yourself in a world of
+                taste.
+              </div>
+            </div>
+          </div>
+          <div class="section_4_column_2">
+            <div class="section_4_card">
+              <div class="section_4_card_image">
+                <img
+                  src="./images/comfrot_place.png"
+                  class="section_4_image"
+                  alt=""
+                />
+              </div>
+              <div class="section_4_card_title">
+                <h3>Cozy Ambiance</h3>
+              </div>
+              <div class="section_4_card_subtitle">
+                You'll feel comfort and relaxation with us. Not only can you
+                enjoy delicious food, but you can also unwind in a pleasant
+                atmosphere.
+              </div>
+            </div>
+            <div class="section_4_card">
+              <div class="section_4_card_image">
+                <img
+                  src="./images/customer-care.png"
+                  class="section_4_image"
+                  alt=""
+                />
+              </div>
+              <div class="section_4_card_title">
+                <h3>Customer-Centric Approach</h3>
+              </div>
+              <div class="section_4_card_subtitle">
+                Your satisfaction is important to us. We're always ready to make
+                your visit delightful and memorable.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section_4_button">
+          <button class="btn_order" onclick="openPage('./menu.html')">
+            MENU
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- section_5 -->
+    <section class="section_5">
+      <div class="section_5_content">
+        <div class="section_5_subtitle">
+          <h3>WE</h3>
+        </div>
+        <div class="section_5_title">
+          <h1>Our <span class="color_green">Best</span> Team</h1>
+        </div>
+        <div class="section_5_image">
+          <img
+            src="./images/section_5_image.png"
+            class="section_5_img"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- section_6 -->
+    <section class="section_6" id="contact">
+      <div class="section_6_content">
+        <div class="section_6_subtitle">
+          <h3>CONTACT</h3>
+        </div>
+        <div class="section_6_title">
+          <h1>
+            Want To <span class="color_green">Order</span> Food? Write
+            <span class="color_green">To</span> Us!
+          </h1>
+          <div class="border_div_copy"></div>
+        </div>
+        <div class="section_6_colons">
+          <div class="section_6_colone_1">
+            <form action="" class="my_form">
+              <div class="input_group">
+                <input type="text" placeholder="Name" class="input" />
+              </div>
+              <div class="input_group">
+                <input type="text" placeholder="Email" class="input" />
+              </div>
+              <div class="input_group">
+                <textarea
+                  name=""
+                  id=""
+                  rows="3"
+                  placeholder="Message"
+                  class="input_text_area"
+                ></textarea>
+              </div>
+              <div class="input_group">
+                <button class="form_button" id="button_orderr">SUBMIT</button>
+              </div>
+            </form>
+          </div>
+          <div class="border_div_copy_2"></div>
+          <div class="section_6_colone_2">
+            <div class="section_6_cards">
+              <div class="section_6_card">
+                <div class="section_6_card_title">
+                  <h4>Phone</h4>
+                </div>
+                <div class="section_6_card_subtitle">
+                  <p>+7 777 777 77 77</p>
+                </div>
+              </div>
+              <div class="section_6_card">
+                <div class="section_6_card_title">
+                  <h4>Email</h4>
+                </div>
+                <div class="section_6_card_subtitle">
+                  <p>abcperson@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="section_6_card">
+                <div class="section_6_card_title">
+                  <h4>Social media</h4>
+                </div>
+                <div class="section_6_card_subtitle">
+                  <a href="" class="section_6_href">
+                    <img src="./images/instagram.png" alt="" />
+                  </a>
+                  <a href="" class="section_6_href1">
+                    <img src="./images/whatsapp.png" />
+                  </a>
+                  <a href="" class="section_6_href1">
+                    <img src="./images/telegram-logo.png"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border_div_copy_2"></div>
+          <div class="section_6_card_map_card">
+            <div class="section_6_card_title">
+              <h4>Adress</h4>
+            </div>
+            <div class="section_6_card_subtitle">
+              <img src="./images/map.png" class="map_image" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer_content">
+        <div class="footer_content_main_column">
+          <div class="footer_column_1">
+            <div class="footer_logo">
+              <img
+                src="./images/nav_logo.png"
+                class="footer_logo_image"
+                alt=""
+              />
+            </div>
+            <div class="footer_text_1">
+              <p>
+                Savor the artistry where every dish is a culinary masterpiece
+              </p>
+            </div>
+          </div>
+          <div class="footer_column_hrefsss">
+            <div class="footer_column_2">
+              <ul class="hrefs_1">
+                <li>
+                  <a href="./index.html" class="footer_nav active_footer"
+                    >Useful links</a
+                  >
+                </li>
+                <li>
+                  <a href="./about_us.html" class="footer_nav">About us</a>
+                </li>
+                <li><a href="./menu.html" class="footer_nav">Menu</a></li>
+                <li><a href="./career.html" class="footer_nav">Career</a></li>
+                <li>
+                  <a href="./about_us.html#video" class="footer_nav">Video</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column_3">
+              <ul class="hrefs_2">
+                <li>
+                  <a href="./menu.html" class="footer_nav active_footer"
+                    >Main menu</a
+                  >
+                </li>
+                <li><a href="./menu.html" class="footer_nav">Home</a></li>
+                <li>
+                  <a href="./menu.html#meat_dishes" class="footer_nav"
+                    >Main dishes</a
+                  >
+                </li>
+                <li>
+                  <a href="./menu.html#dessert" class="footer_nav">Dessert</a>
+                </li>
+                <li>
+                  <a href="./menu.html#drinks" class="footer_nav">Drinks</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column_4">
+              <div class="footer_column_3">
+                <ul class="hrefs_3">
+                  <li>
+                    <a
+                      href="./about_us.html#contact"
+                      class="footer_nav active_footer"
+                      >Contact us</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./about_us.html#contact" class="footer_nav"
+                      >example@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./about_us.html#contact" class="footer_nav"></a>+64
+                    958 248 966
+                  </li>
+                  <li>
+                    <a href="./about_us.html#contact" class="footer_nav"
+                      >Social media</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_social_media">
+          <div class="social_media_hrefs">
+            <a href="#"
+              ><img
+                src="./images/facebook.png"
+                class="footer_href_2 factive"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img src="./images/instagramm.png" class="footer_href_2" alt=""
+            /></a>
+            <a href="#"
+              ><img src="./images/twitter'.png" class="footer_href_2" alt=""
+            /></a>
+            <a href="#"
+              ><img src="./images/youtube.png" class="footer_href_2" alt=""
+            /></a>
+          </div>
+          <div class="social_media_hrefs_text">
+            <p>Copyright © 2023 Dscode | All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>

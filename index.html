@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOODI</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav_logo">
+        <img src="./images/nav_logo.png" alt="" class="nav_logo_image" />
+      </div>
+
+      <div class="navs_for_header">
+        <nav class="header_href">
+          <a href="#" class="nav_a_header active">Home </a>
+          <a href="./about_us.html" class="nav_a_header"
+            >About us
+            <img
+              src="./images/strelka_for_navs.png"
+              class="strelka_header"
+              alt=""
+          /></a>
+
+          <a href="./menu.html" class="nav_a_header"
+            >Menu
+            <img
+              src="./images/strelka_for_navs.png"
+              class="strelka_header"
+              alt=""
+          /></a>
+          <a href="./career.html" class="nav_a_header"
+            >Career
+            <img
+              src="./images/strelka_for_navs.png"
+              class="strelka_header"
+              alt=""
+          /></a>
+        </nav>
+      </div>
+      <div class="icon_for_header">
+        <div class="lupa_header">
+          <img
+            src="./images/lupa.png"
+            onclick="openPage('./menu.html')"
+            class="icon_image"
+            alt=""
+          />
+        </div>
+        <div class="korzina_header">
+          <img
+            src="./images/korzina.png"
+            onclick="openPage('./menu.html#korziiiiiiiiiiiiiiiina')"
+            class="icon_image"
+            alt=""
+          />
+        </div>
+        <div class="order_header">
+          <img src="./images/phone_call.png" class="icon_image_active" alt="" />
+          <a href="./menu.html#korziiiiiiiiiiiiiiiina" class="href_order_now"
+            >Order Now</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- section_1 -->
+    <section class="section_1">
+      <div class="section_1_content">
+        <div class="section_1_text">
+          <div class="section_1_title">
+            <h1>
+              Dive into Delights Of Delectable
+              <span class="green_color">Food</span>
+            </h1>
+          </div>
+          <div class="section_1_subtitle">
+            <p>
+              Where Each Plate Weaves a Story of Culinary Mastery and Passionate
+              Craftsmanship
+            </p>
+          </div>
+          <div class="section_1_buttons">
+            <button onclick="openPage('about_us.html#video')" class="btn_order">
+              Order Now
+            </button>
+            <div class="play_btn">
+              <a href="./about_us.html#video_section" class="play_button"
+                >Watch Video
+              </a>
+              <img src="./images/play_buttom.png" class="play_href" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="section_1_images">
+          <img
+            src="./images/Section_1_image.png"
+            class="main_image_sc_1"
+            alt=""
+          />
+          <img
+            src="./images/Hot_spicy_food.png"
+            class="hot_spicy_food_img"
+            alt=""
+            onclick="openPage('menu.html')"
+          />
+          <img
+            onclick="openPage('menu.html#soup')"
+            src="./images/Spicy_Noodels.png"
+            class="spicy_nood_image_sc_1"
+            alt=""
+          />
+          <img
+            onclick="openPage('menu.html#salads')"
+            src="./images/vegetarian_salad.png"
+            class="salad_image_sc_1"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- section_2 -->
+    <section class="section_2">
+      <div class="section_2_content">
+        <div class="section_2_subtitle">
+          <h3>CUSTOMER FAVORITES</h3>
+        </div>
+        <div class="section_2_title">
+          <h1>Popular Catagories</h1>
+        </div>
+        <div class="section_2_cards">
+          <div
+            class="section_2_card"
+            onclick="openPage('menu.html#meat_dishes')"
+          >
+            <img src="./images/Main_dish.png" alt="" class="section_2_image" />
+            <div class="section_2_card_text">
+              <div class="section_2_card_title">
+                <h3>Main Dish</h3>
+              </div>
+              <div class="section_2_card_subtitle">
+                <p>(21 dishes)</p>
+              </div>
+            </div>
+          </div>
+          <div class="section_2_card" onclick="openPage('menu.html#salads')">
+            <img src="./images/Breakfast.png" alt="" class="section_2_image" />
+            <div class="section_2_card_text">
+              <div class="section_2_card_title">
+                <h3>Breakfast</h3>
+              </div>
+              <div class="section_2_card_subtitle">
+                <p>(12 fast)</p>
+              </div>
+            </div>
+          </div>
+          <div class="section_2_card" onclick="openPage('menu.html#dessert')">
+            <img src="./images/desert.png" alt="" class="section_2_image" />
+            <div class="section_2_card_text">
+              <div class="section_2_card_title">
+                <h3>Desert</h3>
+              </div>
+              <div class="section_2_card_subtitle">
+                <p>(6 desert)</p>
+              </div>
+            </div>
+          </div>
+          <div class="section_2_card" onclick="openPage('menu.html')">
+            <img src="./images/browse+all.png" alt="" class="section_2_image" />
+            <div class="section_2_card_text">
+              <div class="section_2_card_title">
+                <h3>Browse All</h3>
+              </div>
+              <div class="section_2_card_subtitle">
+                <p>(45 items)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section_3 -->
+    <section class="section_3">
+      <div class="section_3_content">
+        <div class="section_3_subtitle">
+          <h3>SPECIAL DISHES</h3>
+        </div>
+        <div class="section_3_title_and_arrow">
+          <div class="section_3_title">
+            <h1>
+              Standout Dishes From Our <span class="green_color">Menu</span>
+            </h1>
+          </div>
+          <div class="section_3_arrows">
+            <button class="left_button" id="prev">
+              <img src="./images/left.png" class="left_arrow" alt="" />
+            </button>
+            <button class="right_button" id="next">
+              <img src="./images/right.png" class="right_arrow" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="section_3_cards">
+          <div class="slide"></div>
+          <div class="section_3_card" onclick="openPage('menu.html#salads')">
+            <div class="heart_part">
+              <img
+                src="./images/heart_inactive.png"
+                class="heart_image"
+                alt=""
+              />
+            </div>
+            <div class="section_3_image_box">
+              <img
+                src="./images/Fattoush salad.png"
+                class="section_3_image"
+                alt=""
+              />
+            </div>
+
+            <div class="section_3_card_text">
+              <div class="section_3_card_title">
+                <h3>Fattoush salad</h3>
+              </div>
+              <div class="section_3_card_subtitle">
+                <p>Description of the item</p>
+              </div>
+            </div>
+            <div class="section_3_card_rate">
+              <div class="rate_1">
+                <p><span class="color_red">$</span>15.00</p>
+              </div>
+              <div class="rate_2">
+                <img src="./images/fi-sr-star.png" alt="" />
+                <p>4.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="section_3_card" onclick="openPage('menu.html#salads')">
+            <div class="heart_part">
+              <img
+                src="./images/heart_inactive.png"
+                class="heart_image"
+                alt=""
+              />
+            </div>
+            <div class="section_3_image_box">
+              <img
+                src="./images/Vegetable salad.png"
+                class="section_3_image"
+                alt=""
+              />
+            </div>
+
+            <div class="section_3_card_text">
+              <div class="section_3_card_title">
+                <h3>Vegetable salad</h3>
+              </div>
+              <div class="section_3_card_subtitle">
+                <p>Description of the item</p>
+              </div>
+            </div>
+            <div class="section_3_card_rate">
+              <div class="rate_1">
+                <p><span class="color_red">$</span>15.00</p>
+              </div>
+              <div class="rate_2">
+                <img src="./images/fi-sr-star.png" alt="" />
+                <p>4.6</p>
+              </div>
+            </div>
+          </div>
+          <div class="section_3_card" onclick="openPage('menu.html#salads')">
+            <div class="heart_part">
+              <img
+                src="./images/heart_inactive.png"
+                class="heart_image"
+                alt=""
+              />
+            </div>
+            <div class="section_3_image_box">
+              <img
+                src="./images/Egg salad.png"
+                class="section_3_image"
+                alt=""
+              />
+            </div>
+
+            <div class="section_3_card_text">
+              <div class="section_3_card_title">
+                <h3>Fattoush salad</h3>
+              </div>
+              <div class="section_3_card_subtitle">
+                <p>Description of the item</p>
+              </div>
+            </div>
+            <div class="section_3_card_rate">
+              <div class="rate_1">
+                <p><span class="color_red">$</span>15.00</p>
+              </div>
+              <div class="rate_2">
+                <img src="./images/fi-sr-star.png" alt="" />
+                <p>4.5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section_4 -->
+    <section class="section_4">
+      <div class="section_4_content">
+        <div class="section_4_images">
+          <img src="./images/shef_power.png" class="main_image_sc_3" alt="" />
+          <img src="./images/smileface.png" class="smile_face_sc_3" alt="" />
+          <img src="./images/pizza.png" class="pizza_sc_3" alt="" />
+          <img src="./images/best_chef.png" class="dialoge_sc_3" alt="" />
+        </div>
+        <div class="section_4_text_content">
+          <div class="section_4_subtitle">
+            <h3>TESTIMONIALS</h3>
+          </div>
+          <div class="section_4_title">
+            <h1>What Our Customers Say About Us</h1>
+          </div>
+          <div class="section_4_text">
+            <p>
+              “I had the pleasure of dining at Foodi last night, and I'm still
+              raving about the experience! The attention to detail in
+              presentation and service was impeccable”
+            </p>
+          </div>
+          <div class="section_4_rate_content">
+            <div class="section_4_rate_image">
+              <img
+                src="./images/section_3_rate.png"
+                class="rate_image_sc_4"
+                alt=""
+              />
+            </div>
+            <div class="section_4_rate_text">
+              <div class="section_4_rate_text_title">
+                <h3>Customer Feedback</h3>
+              </div>
+              <div class="section_4_rate_text_subtitle">
+                <div class="section_4_star">
+                  <img src="./images/fi-sr-star.png" alt="" />
+                  <p>4.9</p>
+                </div>
+                <div class="section_4_rate_text_text">
+                  <p>(18.6k Reviews)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section_5 -->
+    <section class="section_5">
+      <div class="section_5_content">
+        <div class="section_5_text_content">
+          <div class="section_5_subtitle">
+            <h3>OUR STORY & SERVICES</h3>
+          </div>
+          <div class="section_5_title">
+            <h1>Our Culinary Journey And Services</h1>
+          </div>
+          <div class="section_5_text">
+            <p>
+              Rooted in passion, we curate unforgettable dining experiences and
+              offer exceptional services, blending culinary artistry with warm
+              hospitality.
+            </p>
+          </div>
+          <div class="section_5_button">
+            <button
+              class="btn_order btn_explore"
+              onclick="openPage('about_us.html')"
+            >
+              Explore
+            </button>
+          </div>
+        </div>
+        <div class="section_5_cards">
+          <div class="section_5_column_1">
+            <div class="section_5_card">
+              <div class="section_5_card_image">
+                <img
+                  src="./images/catering.svg"
+                  class="section_5_image"
+                  alt=""
+                />
+              </div>
+              <div class="section_5_card_title">
+                <h3>CATERING</h3>
+              </div>
+              <div class="section_5_card_subtitle">
+                <p>Delight your guests with our flavors and presentation</p>
+              </div>
+            </div>
+            <div class="section_5_card">
+              <div class="section_5_card_image">
+                <img
+                  src="./images/fast_delivery.svg"
+                  class="section_5_image"
+                  alt=""
+                />
+              </div>
+              <div class="section_5_card_title">
+                <h3>FAST DEVILERY</h3>
+              </div>
+              <div class="section_5_card_subtitle">
+                <p>We deliver your order promptly to your door</p>
+              </div>
+            </div>
+          </div>
+          <div class="section_5_column_2">
+            <div class="section_5_card">
+              <div class="section_5_card_image">
+                <img
+                  src="./images/online_crdering.svg"
+                  class="section_5_image"
+                  alt=""
+                />
+              </div>
+              <div class="section_5_card_title">
+                <h3>ONLINE ORDERING</h3>
+              </div>
+              <div class="section_5_card_subtitle">
+                <p>Explore menu & order with ease using our Online Ordering</p>
+              </div>
+            </div>
+            <div class="section_5_card">
+              <div class="section_5_card_image">
+                <img
+                  src="./images/gift_present.svg"
+                  class="section_5_image"
+                  alt=""
+                />
+              </div>
+              <div class="section_5_card_title">
+                <h3>GIFT CARDS</h3>
+              </div>
+              <div class="section_5_card_subtitle">
+                <p>Give the gift of exceptional dining with Foodi Gift Cards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer_content">
+        <div class="footer_content_main_column">
+          <div class="footer_column_1">
+            <div class="footer_logo">
+              <img
+                src="./images/nav_logo.png"
+                class="footer_logo_image"
+                alt=""
+              />
+            </div>
+            <div class="footer_text_1">
+              <p>
+                Savor the artistry where every dish is a culinary masterpiece
+              </p>
+            </div>
+          </div>
+          <div class="footer_column_hrefsss">
+            <div class="footer_column_2">
+              <ul class="hrefs_1">
+                <li>
+                  <a href="./index.html" class="footer_nav active_footer"
+                    >Useful links</a
+                  >
+                </li>
+                <li>
+                  <a href="./about_us.html" class="footer_nav">About us</a>
+                </li>
+                <li><a href="./menu.html" class="footer_nav">Menu</a></li>
+                <li><a href="./career.html" class="footer_nav">Career</a></li>
+                <li>
+                  <a href="./about_us.html#video" class="footer_nav">Video</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column_3">
+              <ul class="hrefs_2">
+                <li>
+                  <a href="./menu.html" class="footer_nav active_footer"
+                    >Main menu</a
+                  >
+                </li>
+                <li><a href="./menu.html" class="footer_nav">Home</a></li>
+                <li>
+                  <a href="./menu.html#meat_dishes" class="footer_nav"
+                    >Main dishes</a
+                  >
+                </li>
+                <li>
+                  <a href="./menu.html#dessert" class="footer_nav">Dessert</a>
+                </li>
+                <li>
+                  <a href="./menu.html#drinks" class="footer_nav">Drinks</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column_4">
+              <div class="footer_column_3">
+                <ul class="hrefs_3">
+                  <li>
+                    <a
+                      href="./about_us.html#contact"
+                      class="footer_nav active_footer"
+                      >Contact us</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./about_us.html#contact" class="footer_nav"
+                      >example@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./about_us.html#contact" class="footer_nav"></a>+64
+                    958 248 966
+                  </li>
+                  <li>
+                    <a href="./about_us.html#contact" class="footer_nav"
+                      >Social media</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_social_media">
+          <div class="social_media_hrefs">
+            <a href="#"
+              ><img
+                src="./images/facebook.png"
+                class="footer_href_2 factive"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img src="./images/instagramm.png" class="footer_href_2" alt=""
+            /></a>
+            <a href="#"
+              ><img src="./images/twitter'.png" class="footer_href_2" alt=""
+            /></a>
+            <a href="#"
+              ><img src="./images/youtube.png" class="footer_href_2" alt=""
+            /></a>
+          </div>
+          <div class="social_media_hrefs_text">
+            <p>Copyright © 2023 Dscode | All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
